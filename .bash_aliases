@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Bash aliases
 alias ll='ls -lah'
 alias c='clear -x'
