@@ -12,4 +12,4 @@ alias getclip='xclip -selection clipboard -o >> ~/clipvault/.stash && echo "" >>
 alias stash='cat ~/clipvault/.stash'
 alias llg="ll | grep"
 alias christmas='echo $(( ($(date -d "12/25" +%s) - $(date +%s)) / 86400 )) days until Christmas'
-
+alias zcount='zoxide query -l -s | wc -l'

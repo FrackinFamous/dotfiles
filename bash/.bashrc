@@ -17,4 +17,11 @@ export EDITOR="nvim" # Or "vim", "nvim", etc.
 export VISUAL="code-insiders --wait" # Or "subl --wait", "gedit --wait", etc.
 
 PS1='[\u@\h \W]\$ '
+
 eval -- "$(/usr/sbin/starship init bash --print-full-init)"
+
+# fzf integration
+eval "$(fzf --bash)"
+
+# zoxide, the better cd
+eval "$(zoxide init --cmd cd bash)"
