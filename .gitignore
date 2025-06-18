@@ -1,1 +1,13 @@
+<<<<<<< Updated upstream
 go/
+=======
+# ~/dotfiles/.gitignore
+.DS_Store
+.localized
+*.swp
+*.swo
+*.tmp
+*.bak
+secrets/
+machine_specific/ # For future overrides
+>>>>>>> Stashed changes

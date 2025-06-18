@@ -1,6 +1,6 @@
 format = """
 [░▒▓](#e3e5e5)\
-[   frack ](bg:#e3e5e5 fg:#1793d1)\
+[   ](bg:#e3e5e5 fg:#1793d1)\
 [](bg:#1793d1 fg:#e3e5e5)\
 $directory\
 [](fg:#1793d1 bg:#394260)\
@@ -14,15 +14,21 @@ $php\
 [](fg:#212736 bg:#1d2230)\
 $time\
 [ ](fg:#1d2230)\
+$NU_OVERLAYS\
 \n$character"""
 
 add_newline=false
+
+[env_var.NU_OVERLAYS]
+symbol = '📌 '
+format = 'with [$symbol($env_value )]($style)'
+style = 'red'
 
 [directory]
 style = "fg:#e3e5e5 bg:#1793d1"
 format = "[ $path ]($style)"
 truncation_length = 3
-truncation_symbol = "…/"
+truncation_symbol = ".../"
 
 [directory.substitutions]
 "Documents" = "󰈙 "
