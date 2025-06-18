@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-go/
-=======
 # ~/dotfiles/.gitignore
 .DS_Store
 .localized
@@ -10,4 +7,4 @@ go/
 *.bak
 secrets/
 machine_specific/ # For future overrides
->>>>>>> Stashed changes
+go/

@@ -13,7 +13,4 @@ alias stash='cat ~/clipvault/.stash'
 alias llg="ll | grep"
 alias christmas='echo $(( ($(date -d "12/25" +%s) - $(date +%s)) / 86400 )) days until Christmas'
 alias zcount='zoxide query -l -s | wc -l'
-<<<<<<< Updated upstream
-=======
 alias nvim='NVIM_APPNAME=nvim-deps nvim'
->>>>>>> Stashed changes
